@@ -1,0 +1,79 @@
+
+Epoch 1/100
+38/38 [==============================] - 2s 3ms/step - loss: 0.6998 - accuracy: 0.5000 - mean_squared_error: 0.2533 - mean_absolute_error: 0.5004
+Epoch 2/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.6923 - accuracy: 0.4975 - mean_squared_error: 0.2496 - mean_absolute_error: 0.4994
+Epoch 3/100
+38/38 [==============================] - 0s 3ms/step - loss: 0.6873 - accuracy: 0.5408 - mean_squared_error: 0.2471 - mean_absolute_error: 0.4969
+Epoch 4/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.6717 - accuracy: 0.6833 - mean_squared_error: 0.2393 - mean_absolute_error: 0.4884
+Epoch 5/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.6225 - accuracy: 0.7525 - mean_squared_error: 0.2152 - mean_absolute_error: 0.4596
+Epoch 6/100
+38/38 [==============================] - 0s 3ms/step - loss: 0.5352 - accuracy: 0.7892 - mean_squared_error: 0.1746 - mean_absolute_error: 0.4012
+Epoch 7/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.4781 - accuracy: 0.7992 - mean_squared_error: 0.1509 - mean_absolute_error: 0.3525
+Epoch 8/100
+38/38 [==============================] - 0s 3ms/step - loss: 0.4466 - accuracy: 0.8075 - mean_squared_error: 0.1396 - mean_absolute_error: 0.3214
+Epoch 9/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.4324 - accuracy: 0.8133 - mean_squared_error: 0.1350 - mean_absolute_error: 0.3061
+Epoch 10/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.4047 - accuracy: 0.8308 - mean_squared_error: 0.1238 - mean_absolute_error: 0.2838
+Epoch 11/100
+38/38 [==============================] - 0s 3ms/step - loss: 0.3913 - accuracy: 0.8375 - mean_squared_error: 0.1192 - mean_absolute_error: 0.2702
+Epoch 12/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3814 - accuracy: 0.8383 - mean_squared_error: 0.1159 - mean_absolute_error: 0.2632
+Epoch 13/100
+38/38 [==============================] - 0s 3ms/step - loss: 0.3901 - accuracy: 0.8358 - mean_squared_error: 0.1184 - mean_absolute_error: 0.2726
+Epoch 14/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.4015 - accuracy: 0.8275 - mean_squared_error: 0.1242 - mean_absolute_error: 0.2712
+Epoch 15/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3803 - accuracy: 0.8392 - mean_squared_error: 0.1155 - mean_absolute_error: 0.2587
+Epoch 16/100
+38/38 [==============================] - 0s 3ms/step - loss: 0.3663 - accuracy: 0.8550 - mean_squared_error: 0.1099 - mean_absolute_error: 0.2503
+Epoch 17/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3432 - accuracy: 0.8683 - mean_squared_error: 0.1013 - mean_absolute_error: 0.2327
+Epoch 18/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3285 - accuracy: 0.8775 - mean_squared_error: 0.0957 - mean_absolute_error: 0.2241
+Epoch 19/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3251 - accuracy: 0.8758 - mean_squared_error: 0.0955 - mean_absolute_error: 0.2165
+Epoch 20/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3084 - accuracy: 0.8850 - mean_squared_error: 0.0892 - mean_absolute_error: 0.2045
+Epoch 21/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.2977 - accuracy: 0.8900 - mean_squared_error: 0.0853 - mean_absolute_error: 0.1962
+Epoch 22/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.3071 - accuracy: 0.8833 - mean_squared_error: 0.0899 - mean_absolute_error: 0.1974
+Epoch 23/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.2797 - accuracy: 0.8992 - mean_squared_error: 0.0792 - mean_absolute_error: 0.1809
+Epoch 24/100
+38/38 [==============================] - 0s 4ms/step - loss: 0.2736 - accuracy: 0.8992 - mean_squared_error: 0.0775 - mean_absolute_error: 0.1759
+Epoch 25/100
+ 1/38 [..............................] - ETA: 0s - loss: 0.2644 - accuracy: 0.9062 - mean_squared_error: 0.0717 - mean_absolute_error: 0.1561
+Traceback (most recent call last):
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\LSTM.py", line 24, in <module>
+    model.fit(x_close, y_close, epochs=100, batch_size=32,callbacks=[WandbMetricsLogger()])
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\engine\training.py", line 1685, in fit
+    tmp_logs = self.train_function(iterator)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 894, in __call__
+    result = self._call(*args, **kwds)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 926, in _call
+    return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compiler.py", line 143, in __call__
+    return concrete_function._call_flat(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\eager\polymorphic_function\monomorphic_function.py", line 1757, in _call_flat
+    return self._build_call_outputs(self._inference_function.call(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\eager\polymorphic_function\monomorphic_function.py", line 381, in call
+    outputs = execute.execute(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\eager\execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt

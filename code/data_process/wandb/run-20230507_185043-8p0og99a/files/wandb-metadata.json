@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.0",
+    "heartbeatAt": "2023-05-07T10:50:44.484104",
+    "startedAt": "2023-05-07T10:50:43.050028",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Study\\Emotive\\BrainLinkNetwork\\FAT-WAKE\\data_process\\LSTM.py",
+    "codePath": "data_process\\LSTM.py",
+    "git": {
+        "remote": "https://github.com/TJ-ACLAB/FAT-WAKE.git",
+        "commit": "81fec97621590e1710af4cd8e86ceb0d8b133fd0"
+    },
+    "email": "2954383503@qq.com",
+    "root": "D:/Study/Emotive/BrainLinkNetwork/FAT-WAKE",
+    "host": "hzh",
+    "username": "29543",
+    "executable": "D:\\Study\\Emotive\\BrainLinkNetwork\\FAT-WAKE\\venv\\Scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3301.0,
+        "min": 0.0,
+        "max": 3301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3301.0,
+            "min": 0.0,
+            "max": 3301.0
+        }
+    ],
+    "disk": {
+        "total": 274.71483993530273,
+        "used": 150.41605758666992
+    },
+    "memory": {
+        "total": 13.692329406738281
+    }
+}

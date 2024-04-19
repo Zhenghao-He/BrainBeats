@@ -1,0 +1,151 @@
+(1200, 15)
+Epoch 1/60
+38/38 [==============================] - 1s 974us/step - loss: 0.7082 - accuracy: 0.5900 - mean_squared_error: 0.2562 - mean_absolute_error: 0.4891
+Epoch 2/60
+38/38 [==============================] - 0s 838us/step - loss: 0.6804 - accuracy: 0.6083 - mean_squared_error: 0.2429 - mean_absolute_error: 0.4801
+Epoch 3/60
+38/38 [==============================] - 0s 892us/step - loss: 0.6675 - accuracy: 0.5867 - mean_squared_error: 0.2374 - mean_absolute_error: 0.4758
+Epoch 4/60
+38/38 [==============================] - 0s 871us/step - loss: 0.6634 - accuracy: 0.5983 - mean_squared_error: 0.2357 - mean_absolute_error: 0.4721
+Epoch 5/60
+38/38 [==============================] - 0s 893us/step - loss: 0.6561 - accuracy: 0.6058 - mean_squared_error: 0.2324 - mean_absolute_error: 0.4695
+Epoch 6/60
+38/38 [==============================] - 0s 928us/step - loss: 0.6561 - accuracy: 0.6100 - mean_squared_error: 0.2324 - mean_absolute_error: 0.4631
+Epoch 7/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6510 - accuracy: 0.6033 - mean_squared_error: 0.2305 - mean_absolute_error: 0.4659
+Epoch 8/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6490 - accuracy: 0.6008 - mean_squared_error: 0.2298 - mean_absolute_error: 0.4638
+Epoch 9/60
+38/38 [==============================] - 0s 925us/step - loss: 0.6456 - accuracy: 0.5992 - mean_squared_error: 0.2285 - mean_absolute_error: 0.4631
+Epoch 10/60
+38/38 [==============================] - 0s 866us/step - loss: 0.6439 - accuracy: 0.6100 - mean_squared_error: 0.2277 - mean_absolute_error: 0.4611
+Epoch 11/60
+38/38 [==============================] - 0s 920us/step - loss: 0.6417 - accuracy: 0.6042 - mean_squared_error: 0.2272 - mean_absolute_error: 0.4607
+Epoch 12/60
+38/38 [==============================] - 0s 979us/step - loss: 0.6410 - accuracy: 0.6025 - mean_squared_error: 0.2271 - mean_absolute_error: 0.4602
+Epoch 13/60
+38/38 [==============================] - 0s 973us/step - loss: 0.6383 - accuracy: 0.6067 - mean_squared_error: 0.2260 - mean_absolute_error: 0.4583
+Epoch 14/60
+38/38 [==============================] - 0s 956us/step - loss: 0.6374 - accuracy: 0.6075 - mean_squared_error: 0.2258 - mean_absolute_error: 0.4576
+Epoch 15/60
+38/38 [==============================] - 0s 920us/step - loss: 0.6362 - accuracy: 0.6067 - mean_squared_error: 0.2253 - mean_absolute_error: 0.4567
+Epoch 16/60
+38/38 [==============================] - 0s 973us/step - loss: 0.6344 - accuracy: 0.6075 - mean_squared_error: 0.2248 - mean_absolute_error: 0.4556
+Epoch 17/60
+38/38 [==============================] - 0s 983us/step - loss: 0.6331 - accuracy: 0.6092 - mean_squared_error: 0.2243 - mean_absolute_error: 0.4550
+Epoch 18/60
+38/38 [==============================] - 0s 920us/step - loss: 0.6345 - accuracy: 0.6075 - mean_squared_error: 0.2253 - mean_absolute_error: 0.4549
+Epoch 19/60
+38/38 [==============================] - 0s 973us/step - loss: 0.6315 - accuracy: 0.6058 - mean_squared_error: 0.2240 - mean_absolute_error: 0.4547
+Epoch 20/60
+38/38 [==============================] - 0s 984us/step - loss: 0.6302 - accuracy: 0.6083 - mean_squared_error: 0.2236 - mean_absolute_error: 0.4530
+Epoch 21/60
+38/38 [==============================] - 0s 893us/step - loss: 0.6293 - accuracy: 0.6083 - mean_squared_error: 0.2234 - mean_absolute_error: 0.4532
+Epoch 22/60
+38/38 [==============================] - 0s 865us/step - loss: 0.6293 - accuracy: 0.6083 - mean_squared_error: 0.2235 - mean_absolute_error: 0.4523
+Epoch 23/60
+38/38 [==============================] - 0s 948us/step - loss: 0.6297 - accuracy: 0.6067 - mean_squared_error: 0.2239 - mean_absolute_error: 0.4532
+Epoch 24/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6279 - accuracy: 0.6108 - mean_squared_error: 0.2232 - mean_absolute_error: 0.4492
+Epoch 25/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6268 - accuracy: 0.6075 - mean_squared_error: 0.2228 - mean_absolute_error: 0.4507
+Epoch 26/60
+38/38 [==============================] - 0s 975us/step - loss: 0.6267 - accuracy: 0.6117 - mean_squared_error: 0.2228 - mean_absolute_error: 0.4483
+Epoch 27/60
+38/38 [==============================] - 0s 949us/step - loss: 0.6262 - accuracy: 0.6075 - mean_squared_error: 0.2229 - mean_absolute_error: 0.4509
+Epoch 28/60
+38/38 [==============================] - 0s 924us/step - loss: 0.6254 - accuracy: 0.6083 - mean_squared_error: 0.2226 - mean_absolute_error: 0.4495
+Epoch 29/60
+38/38 [==============================] - 0s 921us/step - loss: 0.6250 - accuracy: 0.6083 - mean_squared_error: 0.2225 - mean_absolute_error: 0.4488
+Epoch 30/60
+38/38 [==============================] - 0s 957us/step - loss: 0.6244 - accuracy: 0.6092 - mean_squared_error: 0.2222 - mean_absolute_error: 0.4475
+Epoch 31/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6235 - accuracy: 0.6067 - mean_squared_error: 0.2221 - mean_absolute_error: 0.4483
+Epoch 32/60
+38/38 [==============================] - 0s 1000us/step - loss: 0.6229 - accuracy: 0.6117 - mean_squared_error: 0.2217 - mean_absolute_error: 0.4473
+Epoch 33/60
+38/38 [==============================] - 0s 902us/step - loss: 0.6228 - accuracy: 0.6083 - mean_squared_error: 0.2218 - mean_absolute_error: 0.4492
+Epoch 34/60
+38/38 [==============================] - 0s 946us/step - loss: 0.6226 - accuracy: 0.6108 - mean_squared_error: 0.2217 - mean_absolute_error: 0.4451
+Epoch 35/60
+38/38 [==============================] - 0s 946us/step - loss: 0.6221 - accuracy: 0.6108 - mean_squared_error: 0.2216 - mean_absolute_error: 0.4478
+Epoch 36/60
+38/38 [==============================] - 0s 984us/step - loss: 0.6230 - accuracy: 0.6092 - mean_squared_error: 0.2221 - mean_absolute_error: 0.4462
+Epoch 37/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6228 - accuracy: 0.6083 - mean_squared_error: 0.2222 - mean_absolute_error: 0.4478
+Epoch 38/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6228 - accuracy: 0.6092 - mean_squared_error: 0.2222 - mean_absolute_error: 0.4472
+Epoch 39/60
+38/38 [==============================] - 0s 982us/step - loss: 0.6231 - accuracy: 0.6133 - mean_squared_error: 0.2222 - mean_absolute_error: 0.4450
+Epoch 40/60
+38/38 [==============================] - 0s 919us/step - loss: 0.6248 - accuracy: 0.6100 - mean_squared_error: 0.2233 - mean_absolute_error: 0.4470
+Epoch 41/60
+38/38 [==============================] - 0s 921us/step - loss: 0.6200 - accuracy: 0.6142 - mean_squared_error: 0.2209 - mean_absolute_error: 0.4429
+Epoch 42/60
+38/38 [==============================] - 0s 979us/step - loss: 0.6174 - accuracy: 0.6117 - mean_squared_error: 0.2198 - mean_absolute_error: 0.4446
+Epoch 43/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6166 - accuracy: 0.6100 - mean_squared_error: 0.2195 - mean_absolute_error: 0.4443
+Epoch 44/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6167 - accuracy: 0.6142 - mean_squared_error: 0.2196 - mean_absolute_error: 0.4424
+Epoch 45/60
+38/38 [==============================] - 0s 955us/step - loss: 0.6145 - accuracy: 0.6125 - mean_squared_error: 0.2186 - mean_absolute_error: 0.4406
+Epoch 46/60
+38/38 [==============================] - 0s 946us/step - loss: 0.6156 - accuracy: 0.6125 - mean_squared_error: 0.2192 - mean_absolute_error: 0.4429
+Epoch 47/60
+38/38 [==============================] - 0s 919us/step - loss: 0.6147 - accuracy: 0.6133 - mean_squared_error: 0.2186 - mean_absolute_error: 0.4410
+Epoch 48/60
+38/38 [==============================] - 0s 957us/step - loss: 0.6180 - accuracy: 0.6142 - mean_squared_error: 0.2200 - mean_absolute_error: 0.4381
+Epoch 49/60
+38/38 [==============================] - 0s 1ms/step - loss: 0.6239 - accuracy: 0.6150 - mean_squared_error: 0.2230 - mean_absolute_error: 0.4392
+Epoch 50/60
+38/38 [==============================] - 0s 973us/step - loss: 0.6207 - accuracy: 0.6083 - mean_squared_error: 0.2217 - mean_absolute_error: 0.4440
+Epoch 51/60
+38/38 [==============================] - 0s 919us/step - loss: 0.6201 - accuracy: 0.6092 - mean_squared_error: 0.2214 - mean_absolute_error: 0.4427
+Epoch 52/60
+38/38 [==============================] - 0s 919us/step - loss: 0.6197 - accuracy: 0.6100 - mean_squared_error: 0.2213 - mean_absolute_error: 0.4430
+Epoch 53/60
+38/38 [==============================] - 0s 947us/step - loss: 0.6184 - accuracy: 0.6142 - mean_squared_error: 0.2206 - mean_absolute_error: 0.4422
+Epoch 54/60
+38/38 [==============================] - 0s 974us/step - loss: 0.6184 - accuracy: 0.6167 - mean_squared_error: 0.2206 - mean_absolute_error: 0.4405
+Epoch 55/60
+38/38 [==============================] - 0s 973us/step - loss: 0.6189 - accuracy: 0.6125 - mean_squared_error: 0.2210 - mean_absolute_error: 0.4438
+Epoch 56/60
+38/38 [==============================] - 0s 983us/step - loss: 0.6181 - accuracy: 0.6150 - mean_squared_error: 0.2205 - mean_absolute_error: 0.4415
+Epoch 57/60
+38/38 [==============================] - 0s 922us/step - loss: 0.6175 - accuracy: 0.6133 - mean_squared_error: 0.2204 - mean_absolute_error: 0.4419
+Epoch 58/60
+38/38 [==============================] - 0s 919us/step - loss: 0.6187 - accuracy: 0.6158 - mean_squared_error: 0.2210 - mean_absolute_error: 0.4421
+Epoch 59/60
+38/38 [==============================] - 0s 976us/step - loss: 0.6181 - accuracy: 0.6125 - mean_squared_error: 0.2208 - mean_absolute_error: 0.4429
+Epoch 60/60
+38/38 [==============================] - 0s 946us/step - loss: 0.6184 - accuracy: 0.6100 - mean_squared_error: 0.2209 - mean_absolute_error: 0.4423
+Traceback (most recent call last):
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\RNN.py", line 30, in <module>
+    model.fit(x_close, y_close, epochs=100, batch_size=32,callbacks=[WandbMetricsLogger()])
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\engine\training.py", line 1625, in fit
+    data_handler = data_adapter.get_data_handler(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\engine\data_adapter.py", line 1583, in get_data_handler
+    return DataHandler(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\engine\data_adapter.py", line 1260, in __init__
+    self._adapter = adapter_cls(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\engine\data_adapter.py", line 348, in __init__
+    dataset = self.slice_inputs(indices_dataset, inputs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\keras\engine\data_adapter.py", line 389, in slice_inputs
+    dataset = dataset.map(grab_batch, num_parallel_calls=tf.data.AUTOTUNE)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\data\ops\dataset_ops.py", line 2240, in map
+    return map_op._map_v2(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\data\ops\map_op.py", line 40, in _map_v2
+    return _ParallelMapDataset(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\data\ops\map_op.py", line 163, in __init__
+    variant_tensor = gen_dataset_ops.parallel_map_dataset_v2(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\tensorflow\python\ops\gen_dataset_ops.py", line 5945, in parallel_map_dataset_v2
+    _result = pywrap_tfe.TFE_Py_FastPathExecute(
+KeyboardInterrupt

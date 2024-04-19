@@ -1,0 +1,31 @@
+2023-10-11 13:43:55,963 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Current SDK version is 0.15.2
+2023-10-11 13:43:55,963 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Configure stats pid to 58968
+2023-10-11 13:43:55,963 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Loading settings from C:\Users\29543\.config\wandb\settings
+2023-10-11 13:43:55,963 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Loading settings from D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\wandb\settings
+2023-10-11 13:43:55,963 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-10-11 13:43:55,963 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'data_process\\SVM_package.py', 'program': 'D:\\Study\\Emotive\\BrainLinkNetwork\\FAT-WAKE\\data_process\\SVM_package.py'}
+2023-10-11 13:43:55,964 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-11 13:43:55,964 INFO    MainThread:58968 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-10-11 13:43:55,964 INFO    MainThread:58968 [wandb_init.py:_log_setup():507] Logging user logs to D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\wandb\run-20231011_134355-7m6t8sqk\logs\debug.log
+2023-10-11 13:43:55,964 INFO    MainThread:58968 [wandb_init.py:_log_setup():508] Logging internal logs to D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\wandb\run-20231011_134355-7m6t8sqk\logs\debug-internal.log
+2023-10-11 13:43:55,964 INFO    MainThread:58968 [wandb_init.py:init():547] calling init triggers
+2023-10-11 13:43:55,964 INFO    MainThread:58968 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-10-11 13:43:55,965 INFO    MainThread:58968 [wandb_init.py:init():596] starting backend
+2023-10-11 13:43:55,965 INFO    MainThread:58968 [wandb_init.py:init():600] setting up manager
+2023-10-11 13:43:55,968 INFO    MainThread:58968 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-10-11 13:43:55,973 INFO    MainThread:58968 [wandb_init.py:init():606] backend started and connected
+2023-10-11 13:43:55,976 INFO    MainThread:58968 [wandb_init.py:init():700] updated telemetry
+2023-10-11 13:43:56,073 INFO    MainThread:58968 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2023-10-11 13:44:56,483 ERROR   MainThread:58968 [wandb_init.py:init():763] encountered error: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-10-11 13:44:56,579 ERROR   MainThread:58968 [wandb_init.py:init():1168] Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1150, in init
+    run = wi.init()
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 769, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 60.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2023-10-11 13:44:57,597 WARNING MsgRouterThr:58968 [router.py:message_loop():77] message_loop has been closed

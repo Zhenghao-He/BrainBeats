@@ -1,0 +1,79 @@
+2023-10-11 13:43:55,972 INFO    StreamThr :55432 [internal.py:wandb_internal():86] W&B internal server running at pid: 55432, started at: 2023-10-11 13:43:55.972744
+2023-10-11 13:43:55,973 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: status
+2023-10-11 13:43:55,976 INFO    WriterThread:55432 [datastore.py:open_for_write():85] open: D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\wandb\run-20231011_134355-7m6t8sqk\run-7m6t8sqk.wandb
+2023-10-11 13:43:55,977 DEBUG   SenderThread:55432 [sender.py:send():375] send: header
+2023-10-11 13:43:56,073 DEBUG   SenderThread:55432 [sender.py:send():375] send: run
+2023-10-11 13:43:59,728 INFO    SenderThread:55432 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\connectionpool.py", line 700, in urlopen
+    self._prepare_proxy(conn)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\connectionpool.py", line 996, in _prepare_proxy
+    conn.connect()
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\connection.py", line 369, in connect
+    self.sock = conn = self._connect_tls_proxy(hostname, conn)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\connection.py", line 504, in _connect_tls_proxy
+    socket = ssl_wrap_socket(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\util\ssl_.py", line 453, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\util\ssl_.py", line 495, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock)
+  File "D:\Software\Python39\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Software\Python39\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "D:\Software\Python39\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:1122)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1122)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\sdk\internal\internal_api.py", line 285, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\wandb\sdk\lib\gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\requests\sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\venv\lib\site-packages\requests\adapters.py", line 517, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1122)')))
+2023-10-11 13:44:01,113 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:06,140 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:11,183 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:16,201 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:21,253 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:26,292 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:31,321 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:36,358 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:41,390 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:46,425 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:51,436 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: keepalive
+2023-10-11 13:44:56,483 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: cancel
+2023-10-11 13:44:56,484 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: cancel
+2023-10-11 13:44:56,484 DEBUG   SenderThread:55432 [sender.py:send():384] Record cancelled: run
+2023-10-11 13:44:56,484 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: status_report
+2023-10-11 13:44:56,581 DEBUG   HandlerThread:55432 [handler.py:handle_request():144] handle_request: shutdown
+2023-10-11 13:44:56,581 INFO    HandlerThread:55432 [handler.py:finish():845] shutting down handler
+2023-10-11 13:44:57,486 INFO    WriterThread:55432 [datastore.py:close():298] close: D:\Study\Emotive\BrainLinkNetwork\FAT-WAKE\data_process\wandb\run-20231011_134355-7m6t8sqk\run-7m6t8sqk.wandb
+2023-10-11 13:44:57,486 INFO    SenderThread:55432 [sender.py:finish():1550] shutting down sender
